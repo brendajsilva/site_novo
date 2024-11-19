@@ -15,7 +15,7 @@ body {
 }   
 
 header {  
-    background: linear-gradient(90deg, #4605dd, #05a1bd);  
+    background: linear-gradient(90deg, #9e8704, #A7B2B4);  
     color: #fff;  
     padding: 20px 0;   
     text-align: center;  
@@ -162,8 +162,8 @@ footer {
 }
 
 :root {
-    --primary-color: #9900ff;
-    --secondary-color: #02deee;
+    --primary-color: #2c3e50;
+    --secondary-color: #3498db;
     --text-color: #333;
     --background-color: #fff;
     --accent-color: #e74c3c;
@@ -576,7 +576,7 @@ figcaption {
 }
 
 .main-nav ul li a {
-    background: linear-gradient(90deg, #4605dd, #05a1bd);
+    background: linear-gradient(90deg, #1e3a78, #A7B2B4);
     color: white;
     padding: 0.8rem 1.5rem;
     border-radius: 25px;
@@ -588,7 +588,7 @@ figcaption {
 .main-nav ul li a:hover {
     transform: translateY(-3px);
     box-shadow: 0 4px 15px rgba(30, 58, 120, 0.3);
-    background: linear-gradient(90deg, #4605dd, #05a1bd);
+    background: linear-gradient(90deg, #A7B2B4, #1e3a78);
 }
 
 @media (max-width: 768px) {
@@ -897,7 +897,7 @@ figcaption {
 button {
     padding: 10px 20px;
     margin: 5px;
-    background: linear-gradient(90deg,  #4605dd, #05a1bd);
+    background: linear-gradient(90deg, #1e3a78, #A7B2B4);
     color: white;
     border: none;
     border-radius: 25px;
@@ -908,7 +908,7 @@ button {
 button:hover {
     transform: translateY(-3px);
     box-shadow: 0 4px 15px rgba(30, 58, 120, 0.3);
-    background: linear-gradient(90deg,  #4605dd, #05a1bd);
+    background: linear-gradient(90deg, #A7B2B4, #1e3a78);
 }
 
 .resultado {
@@ -927,7 +927,7 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background: linear-gradient(270deg,  #4605dd, #05a1bd, #fff);
+    background: linear-gradient(270deg, #1e3a78, #A7B2B4, #fff);
     background-size: 600% 600%;
     animation: gradientAnimation 20s ease infinite;
 }
