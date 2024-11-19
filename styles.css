@@ -44,7 +44,7 @@ nav ul li a {
 }  
 
 nav ul li a:hover {  
-    background: rgba(255, 255, 255, 0.2);   
+    background: rgba(182, 2, 2, 0.712);   
     color: #FFD700;                    
 }  
 
@@ -162,8 +162,8 @@ footer {
 }
 
 :root {
-    --primary-color: #2c3e50;
-    --secondary-color: #3498db;
+    --primary-color: #8b05c0;
+    --secondary-color: #0879e4;
     --text-color: #333;
     --background-color: #fff;
     --accent-color: #e74c3c;
@@ -287,8 +287,8 @@ body {
 }
 
 :root {
-    --primary-color: #2c3e50;
-    --secondary-color: #3498db;
+    --primary-color: #8b05c0;
+    --secondary-color: #0879e4;
     --accent-color: #e74c3c;
     --background-light: #f8f9fa;
     --text-color: #333;
@@ -511,11 +511,11 @@ figcaption {
 }
 
 .container h1 {
-    color: #1e3a78;
+    color: #e2af06;
     text-align: center;
     font-size: 2.5rem;
     margin-bottom: 2rem;
-    border-bottom: 3px solid #A7B2B4;
+    border-bottom: 3px solid #ff9100;
     padding-bottom: 1rem;
 }
 
@@ -533,10 +533,10 @@ figcaption {
 }
 
 .topic h2 {
-    color: #1e3a78;
+    color: #3d07ff;
     font-size: 1.8rem;
     margin-bottom: 1.5rem;
-    border-left: 5px solid #A7B2B4;
+    border-left: 5px solid #0789a0;
     padding-left: 1rem;
 }
 
@@ -576,7 +576,7 @@ figcaption {
 }
 
 .main-nav ul li a {
-    background: linear-gradient(90deg, #1e3a78, #A7B2B4);
+    background: linear-gradient(90deg, #5300b3, #039cb8);
     color: white;
     padding: 0.8rem 1.5rem;
     border-radius: 25px;
@@ -588,7 +588,7 @@ figcaption {
 .main-nav ul li a:hover {
     transform: translateY(-3px);
     box-shadow: 0 4px 15px rgba(30, 58, 120, 0.3);
-    background: linear-gradient(90deg, #A7B2B4, #1e3a78);
+    background: linear-gradient(90deg, #5300b3, #039cb8);
 }
 
 @media (max-width: 768px) {
@@ -897,7 +897,7 @@ figcaption {
 button {
     padding: 10px 20px;
     margin: 5px;
-    background: linear-gradient(90deg, #1e3a78, #A7B2B4);
+    background: linear-gradient(90deg,#5300b3, #039cb8);
     color: white;
     border: none;
     border-radius: 25px;
@@ -908,7 +908,7 @@ button {
 button:hover {
     transform: translateY(-3px);
     box-shadow: 0 4px 15px rgba(30, 58, 120, 0.3);
-    background: linear-gradient(90deg, #A7B2B4, #1e3a78);
+    background: linear-gradient(90deg,#5300b3, #039cb8);
 }
 
 .resultado {
@@ -927,7 +927,7 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background: linear-gradient(270deg, #1e3a78, #A7B2B4, #fff);
+    background: linear-gradient(270deg, #5300b3, #039cb8, #fff);
     background-size: 600% 600%;
     animation: gradientAnimation 20s ease infinite;
 }
