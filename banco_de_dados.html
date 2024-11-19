@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Banco de Dados - FuturoTech">
+    <link rel="stylesheet" href="styles.css">
+    <title>Banco de Dados - FuturoTech</title>
+</head>
+
+<body>
+    <header class="main-header">
+        <div class="header-container">
+            <h1>FuturoTech</h1>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="servicos.html">Serviços</a></li>
+                    <li><a href="algoritmos.html">Algoritmos</a></li>
+                    <li><a href="componentes.html">Componentes</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                    <li><a href="java.html">JavaScript</a></li>
+                    <li><a href="eletroeletrônica.html">Eletroeletrônica</a></li>
+                    <li><a href="banco_de_dados.html">Banco de Dados</a></li>
+                    <li><a href="ordenacao.html">Ordenação</a></li>
+                    <li><a href="descrescente.html">Ordenação</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main-content">
+        <section id="database" class="database-section">
+            <h2 class="section-title">Banco de Dados</h2>
+
+            <div class="service-card">
+                <h3>Fundamentos de Banco de Dados</h3>
+                <div class="database-info">
+                    <h4>O que é um Banco de Dados?</h4>
+                    <p>Um banco de dados é uma coleção organizada de informações estruturadas, armazenadas eletronicamente em um sistema computacional. Os dados são organizados em tabelas, com linhas e colunas, permitindo acesso, gerenciamento e atualização eficientes.</p>
+
+                    <h4>Tipos de Bancos de Dados</h4>
+                    <ul class="database-types">
+                        <li><strong>Relacionais (SQL):</strong>
+                            <ul>
+                                <li>MySQL</li>
+                                <li>PostgreSQL</li>
+                                <li>Oracle</li>
+                                <li>SQL Server</li>
+                            </ul>
+                        </li>
+                        <li><strong>Não-Relacionais (NoSQL):</strong>
+                            <ul>
+                                <li>MongoDB</li>
+                                <li>Redis</li>
+                                <li>Cassandra</li>
+                                <li>Firebase</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="service-card">
+                <h3>Conceitos Fundamentais SQL</h3>
+                <div class="sql-concepts">
+                    <h4>Comandos Básicos</h4>
+                    <ul class="sql-commands">
+                        <li><strong>SELECT:</strong> Consulta dados</li>
+                        <li><strong>INSERT:</strong> Adiciona novos registros</li>
+                        <li><strong>UPDATE:</strong> Atualiza registros existentes</li>
+                        <li><strong>DELETE:</strong> Remove registros</li>
+                        <li><strong>CREATE:</strong> Cria tabelas/databases</li>
+                        <li><strong>ALTER:</strong> Modifica estruturas existentes</li>
+                    </ul>
+
+                    <h4>Relacionamentos</h4>
+                    <ul class="relationships">
+                        <li><strong>Um para Um (1:1)</strong></li>
+                        <li><strong>Um para Muitos (1:N)</strong></li>
+                        <li><strong>Muitos para Muitos (N:N)</strong></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="service-card">
+                <h3>Modelagem de Dados</h3>
+                <div class="data-modeling">
+                    <h4>Níveis de Modelagem</h4>
+                    <ul class="modeling-levels">
+                        <li><strong>Conceitual:</strong> Visão geral do sistema</li>
+                        <li><strong>Lógico:</strong> Estrutura detalhada independente do SGBD</li>
+                        <li><strong>Físico:</strong> Implementação específica para um SGBD</li>
+                    </ul>
+
+                    <h4>Normalização</h4>
+                    <ul class="normalization">
+                        <li><strong>1ª Forma Normal:</strong> Atomicidade dos dados</li>
+                        <li><strong>2ª Forma Normal:</strong> Dependência funcional</li>
+                        <li><strong>3ª Forma Normal:</strong> Eliminação de dependências transitivas</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="service-card">
+                <h3>Diagramas e Documentação de Banco de Dados</h3>
+                <div class="database-documentation">
+                    <h4>Diagrama Conceitual (DER - Diagrama Entidade Relacionamento)</h4>
+                    <p>O DER é uma representação visual de alto nível que mostra as entidades do sistema e seus relacionamentos, independente de implementação. Utiliza símbolos como retângulos (entidades), losangos (relacionamentos) e elipses (atributos) para modelar a estrutura conceitual do banco de dados.</p>
+            
+                    <h4>Diagrama Lógico (MER - Modelo Entidade Relacionamento)</h4>
+                    <p>O MER é uma evolução do DER que representa a estrutura lógica do banco de dados, incluindo tabelas, campos, chaves primárias e estrangeiras, e tipos de dados. É mais detalhado que o DER e mais próximo da implementação física, mas ainda independente de um SGBD específico.</p>
+            
+                    <h4>Bancos de Dados Utilizados na FuturoTech</h4>
+                    <ul class="company-databases">
+                        <li><strong>MySQL</strong>
+                            <ul>
+                                <li>Gerenciamento de clientes</li>
+                                <li>Sistema de vendas</li>
+                                <li>Controle de estoque</li>
+                            </ul>
+                        </li>
+                        <li><strong>PostgreSQL</strong>
+                            <ul>
+                                <li>Análise de dados</li>
+                                <li>Business Intelligence</li>
+                            </ul>
+                        </li>
+                        <li><strong>MongoDB</strong>
+                            <ul>
+                                <li>Logs do sistema</li>
+                                <li>Dados não estruturados</li>
+                            </ul>
+                        </li>
+                    </ul>
+            
+                    <h4>Dicionário de Dados</h4>
+                    <p>O dicionário de dados é um documento detalhado que contém metadados sobre a estrutura do banco de dados, incluindo:</p>
+                    <ul class="data-dictionary">
+                        <li>Nome e descrição de todas as tabelas</li>
+                        <li>Nome, tipo e tamanho de cada campo</li>
+                        <li>Descrição dos relacionamentos</li>
+                        <li>Restrições e regras de validação</li>
+                        <li>Valores padrão e domínios</li>
+                        <li>Índices e chaves</li>
+                    </ul>
+                </div>
+            </div>
+            
+        </section>
+    </main>
+    <br><br>
+    <footer class="main-footer">
+        <p>&copy; 2024 FuturoTech. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>

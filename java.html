@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Tudo sobre JavaScript - Conceitos, Frameworks e Aplicações">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+    <title>JavaScript - FuturoTech</title>
+</head>
+
+<body>
+    <header class="main-header">
+        <div class="header-container">
+            <h1>FuturoTech</h1>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="servicos.html">Serviços</a></li>
+                    <li><a href="algoritmos.html">Algoritmos</a></li>
+                    <li><a href="componentes.html">Componentes</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                    <li><a href="java.html">JavaScript</a></li>
+                    <li><a href="eletroeletrônica.html">Eletroeletrônica</a></li>
+                    <li><a href="banco_de_dados.html">Banco de Dados</a></li>
+                    <li><a href="ordenacao.html">Ordenação</a></li>
+                    <li><a href="descrescente.html">Ordenação</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main-content">
+        <section id="javascript" class="javascript-section">
+            <h2 class="section-title">JavaScript</h2>
+            
+            <div class="service-card">
+                <h3>Fundamentos JavaScript</h3>
+                <p>JavaScript é uma linguagem de programação versátil e essencial para o desenvolvimento web moderno:</p>
+                <ul class="service-list">
+                    <li>Variáveis e Tipos de Dados</li>
+                    <li>Estruturas de Controle</li>
+                    <li>Funções e Arrays</li>
+                    <li>Objetos e Classes</li>
+                    <li>Promises e Async/Await</li>
+                </ul>
+            </div>
+
+            <div class="service-card">
+                <h3>Frameworks e Bibliotecas</h3>
+                <div class="framework-info">
+                    <h4>Principais Tecnologias</h4>
+                    <ul class="benefits-list">
+                        <li><strong>React:</strong> Biblioteca para construção de interfaces de usuário</li>
+                        <li><strong>Vue.js:</strong> Framework progressivo para construção de UIs</li>
+                        <li><strong>Angular:</strong> Framework completo para aplicações web</li>
+                        <li><strong>Node.js:</strong> Runtime JavaScript para backend</li>
+                    </ul>
+                    
+                    <h4>Aplicações Práticas</h4>
+                    <p>JavaScript permite criar:</p>
+                    <ul class="benefits-list">
+                        <li><strong>Aplicações Web:</strong> Sites dinâmicos e interativos</li>
+                        <li><strong>APIs:</strong> Serviços web e microserviços</li>
+                        <li><strong>Aplicações Mobile:</strong> Usando React Native ou Ionic</li>
+                        <li><strong>Desktop:</strong> Aplicações com Electron</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="service-card">
+                <h3>Ferramentas de Desenvolvimento</h3>
+                <div class="tools-info">
+                    <h4>Ambiente de Desenvolvimento</h4>
+                    <ul class="benefits-list">
+                        <li><strong>VS Code:</strong> Editor de código mais popular</li>
+                        <li><strong>Git:</strong> Controle de versão</li>
+                        <li><strong>npm/yarn:</strong> Gerenciadores de pacotes</li>
+                        <li><strong>DevTools:</strong> Ferramentas de desenvolvimento do navegador</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="service-card">
+                <h3>Algoritmos de Ordenação em JavaScript</h3>
+                <div class="sorting-examples">
+                    <div class="code-example">
+                        <h4>Ordenação Crescente</h4>
+                        <figure>
+                            <pre><code>
+            let numeros = [64, 34, 25, 12, 22, 11, 90];
+            // Método simples usando sort()
+            numeros.sort((a, b) => a - b);
+            
+            // Bubble Sort
+            function ordenarCrescente(arr) {
+                for(let i = 0; i < arr.length; i++) {
+                    for(let j = 0; j < arr.length - i - 1; j++) {
+                        if(arr[j] > arr[j + 1]) {
+                            let temp = arr[j];
+                            arr[j] = arr[j + 1];
+                            arr[j + 1] = temp;
+                        }
+                    }
+                }
+                return arr;
+            }
+                            </code></pre>
+                            <figcaption>Implementação de ordenação crescente</figcaption>
+                        </figure>
+                    </div>
+            
+                    <div class="code-example">
+                        <h4>Ordenação Decrescente</h4>
+                        <figure>
+                            <pre><code>
+            let numeros = [64, 34, 25, 12, 22, 11, 90];
+            // Método simples usando sort()
+            numeros.sort((a, b) => b - a);
+            
+            // Bubble Sort Decrescente
+            function ordenarDecrescente(arr) {
+                for(let i = 0; i < arr.length; i++) {
+                    for(let j = 0; j < arr.length - i - 1; j++) {
+                        if(arr[j] < arr[j + 1]) {
+                            let temp = arr[j];
+                            arr[j] = arr[j + 1];
+                            arr[j + 1] = temp;
+                        }
+                    }
+                }
+                return arr;
+            }
+                            </code></pre>
+                            <figcaption>Implementação de ordenação decrescente</figcaption>
+                        </figure>
+                    </div>
+            
+                    <div class="example-output">
+                        <h4>Exemplo de Uso:</h4>
+                        <pre><code>
+            let array = [64, 34, 25, 12, 22, 11, 90];
+            console.log("Array original:", array);
+            console.log("Crescente:", ordenarCrescente([...array]));
+            console.log("Decrescente:", ordenarDecrescente([...array]));
+                        </code></pre>
+                    </div>
+                </div>
+            </div>
+            
+        </section>
+    </main>
+<br><br>
+    <footer class="main-footer">
+        <p>&copy; 2024 FuturoTech. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
+
+<div class="service-card">
+    <div class="javascript-images">
+        <figure>
+            <figcaption>JavaScript soma divisíveis por 5</figcaption>
+            <img src="java_divisiveis.jpg"class="js-img">
+        </figure>
+        <figure>
+            <figcaption>Somar ímpares de matriz aleatórias</figcaption>
+            <img src="java_impares_aleatorios.jpg"class="js-img">
+        </figure>
+        <figure>
+            <figcaption>Somar Matrizes</figcaption>
+            <img src="java_matriz.jpg" class="js-img">
+        </figure>
+        <figure>
+            <figcaption>For e If</figcaption>
+            <img src="for_if.jpg" class="js-img">
+        </figure>
+        <figure>
+            <figcaption>While</figcaption>
+            <img src="while.jpg" class="js-img">
+        </figure>
+        <figure>
+            <figcaption>Appenchild</figcaption>
+            <img src="java_appenchild.html.jpg" class="js-img">
+        </figure>
+        <figure>
+            <figcaption>Else If</figcaption>
+            <img src="exemplo-elseif.png" class="js-img">
+        </figure>
+    </div>
+</div>
+
+<div class="service-card">
+    <h3>Demonstrações em Vídeo</h3>
+    <div class="video-container">
+        <video controls width="100%">
+            <source src="q01-VEED.mp4" type="video/mp4">
+            Seu navegador não suporta o elemento de vídeo.
+        </video>
+        <div class="video-description">
+            <h4>Tutorial JavaScript</h4>
+            <p>Demonstração prática de conceitos do metódo de ordenação insertion sort</p>
+        </div>
+    </div>
+</div>
+<br><br>
