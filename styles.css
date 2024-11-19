@@ -256,7 +256,7 @@ body {
 .welcome-text {
     font-size: 1.2rem;
     line-height: 1.8;
-    color: #555;
+    color: #660adf;
 }
 
 .main-footer {
@@ -287,7 +287,7 @@ body {
 }
 
 :root {
-    --primary-color: #2c3e50;
+    --primary-color: #9d08ca;
     --secondary-color: #3498db;
     --accent-color: #e74c3c;
     --background-light: #f8f9fa;
@@ -576,7 +576,7 @@ figcaption {
 }
 
 .main-nav ul li a {
-    background: linear-gradient(90deg, #1e3a78, #A7B2B4);
+    background: linear-gradient(90deg, #0508df, #ac0281);
     color: white;
     padding: 0.8rem 1.5rem;
     border-radius: 25px;
@@ -588,7 +588,7 @@ figcaption {
 .main-nav ul li a:hover {
     transform: translateY(-3px);
     box-shadow: 0 4px 15px rgba(30, 58, 120, 0.3);
-    background: linear-gradient(90deg, #A7B2B4, #1e3a78);
+    background: linear-gradient(90deg, #8106e6, #1e3a78);
 }
 
 @media (max-width: 768px) {
@@ -619,7 +619,6 @@ figcaption {
     }
 }
 
-/* Enhanced image styling */
 .banner {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -897,7 +896,7 @@ figcaption {
 button {
     padding: 10px 20px;
     margin: 5px;
-    background: linear-gradient(90deg, #1e3a78, #A7B2B4);
+    background: linear-gradient(90deg, #7505df, #A7B2B4);
     color: white;
     border: none;
     border-radius: 25px;
@@ -908,7 +907,7 @@ button {
 button:hover {
     transform: translateY(-3px);
     box-shadow: 0 4px 15px rgba(30, 58, 120, 0.3);
-    background: linear-gradient(90deg, #A7B2B4, #1e3a78);
+    background: linear-gradient(90deg, #9902df, #1e3a78);
 }
 
 .resultado {
@@ -927,7 +926,7 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background: linear-gradient(270deg, #1e3a78, #A7B2B4, #fff);
+    background: linear-gradient(270deg, #05c494, #7f05e2, #fff);
     background-size: 600% 600%;
     animation: gradientAnimation 20s ease infinite;
 }
