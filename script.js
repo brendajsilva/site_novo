@@ -1,6 +1,6 @@
 
 document.addEventListener('DOMContentLoaded', function() {
-   s
+   
     const modal = document.createElement('div');
     modal.className = 'modal';
     modal.innerHTML = `
